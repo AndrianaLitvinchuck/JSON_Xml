@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 import com.alibaba.fastjson.annotation.*;
 
 
-//@XmlAccessorType(XmlAccessType.FIELD)
+@XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement
 public class Product {
 
