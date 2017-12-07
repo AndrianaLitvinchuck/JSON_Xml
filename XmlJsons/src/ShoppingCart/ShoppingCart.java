@@ -7,7 +7,8 @@ import com.alibaba.fastjson.annotation.*;
 import javax.xml.bind.annotation.*;
 
 @XmlRootElement
-//@XmlType(propOrder = {"title", "cart"})
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = {"title", "cart"})
 public class ShoppingCart implements Comparator<Product> {
 
     @JSONField(ordinal = 1)
